@@ -1,37 +1,60 @@
 # Milthm Mod
 
-> **English**
->
-> This project is an unofficial fan-made modification for Milthm.
-> It is **not affiliated with, associated with, authorized, endorsed by, or in any way officially connected with Morizero or Milthm**.
->
-> **中文**
->
-> 本项目为 Milthm 的非官方玩家制作模组，与 **Morizero** 或 **Milthm** **没有任何关联、合作、授权或官方认可关系**。
+An unofficial fan-made mod for **Milthm**.
+
+**非官方 Milthm 玩家模组。**
+
+---
+
+# ⚠️ Important / 重要说明
+
+**English**
+
+This mod **requires the modified `BepInEx.zip` provided in this repository or Release**.
+
+The Interop files have been modified specifically for this project and are **not compatible** with the official BepInEx package or other third-party builds.
+
+**Please do not replace the included BepInEx files with another version**, otherwise the mod may fail to load or work correctly.
+
+**中文**
+
+**本模组必须使用本仓库或 Release 提供的 `BepInEx.zip`。**
+
+由于本项目修改了 **Interop** 文件，因此**与官方版或其他来源的 BepInEx 不兼容**。
+
+**请勿使用官方版或其他版本替换本项目提供的 BepInEx**，否则可能导致模组无法加载或运行异常。
 
 ---
 
 # Requirements / 运行需求
 
-- Milthm
-- BepInEx 5.x
-- Windows
+* Milthm
+* Windows
+* Modified BepInEx (Included in Release / 仓库提供)
 
 ---
 
 # Installation / 安装教程
 
-## 1. Install BepInEx / 安装 BepInEx
+## 1. Download Files / 下载文件
 
-Download the latest BepInEx 5.x release from GitHub.
+Download the following files from the latest Release:
 
-请从 GitHub 下载最新版本的 BepInEx 5.x。
+* `BepInEx.zip`
+* `MilthmMod.dll`
 
-https://github.com/BepInEx/BepInEx/releases
+请从最新 Release 下载：
 
-Extract all files into your Milthm game folder.
+* `BepInEx.zip`
+* `MilthmMod.dll`
 
-将压缩包中的所有文件解压到 Milthm 游戏目录。
+---
+
+## 2. Install BepInEx / 安装 BepInEx
+
+Extract **BepInEx.zip** into your Milthm installation folder.
+
+将 **BepInEx.zip** 解压到 Milthm 游戏目录。
 
 Example / 示例：
 
@@ -43,26 +66,13 @@ Milthm/
 └── Milthm.exe
 ```
 
-Launch the game once.
-
-首次启动游戏一次。
-
-BepInEx will automatically create the `plugins` folder.
-
-BepInEx 会自动创建 `plugins` 文件夹。
-
-```
-BepInEx/
-└── plugins/
-```
-
 ---
 
-## 2. Install the Mod / 安装模组
+## 3. Install the Mod / 安装模组
 
 Copy the mod DLL into:
 
-将模组 DLL 文件复制到：
+将模组 DLL 放入：
 
 ```
 BepInEx/plugins/
@@ -76,15 +86,15 @@ BepInEx/
     └── MilthmMod.dll
 ```
 
-Launch the game again.
+Launch Milthm.
 
-再次启动游戏即可。
+启动 Milthm 即可。
 
 ---
 
 # Uninstall / 卸载
 
-Delete the mod DLL from:
+Remove the mod DLL from:
 
 删除以下文件：
 
@@ -92,13 +102,13 @@ Delete the mod DLL from:
 BepInEx/plugins/
 ```
 
-To completely remove BepInEx, delete:
+To completely uninstall, delete:
 
-如需彻底卸载 BepInEx，请删除：
+如需彻底卸载，请删除：
 
-- `BepInEx`
-- `winhttp.dll`
-- `doorstop_config.ini`
+* `BepInEx/`
+* `winhttp.dll`
+* `doorstop_config.ini`
 
 ---
 
@@ -112,17 +122,13 @@ It is **not affiliated with, associated with, authorized, endorsed by, or in any
 
 Milthm and all related names, trademarks, assets, and copyrights belong to their respective owners.
 
-This project is provided "as is" without any warranty.
-
 **中文**
 
 本项目为非官方玩家制作模组。
 
-本项目与 **Morizero** 或 **Milthm** 没有任何关联、合作、授权或官方认可关系。
+本项目与 **Morizero** 或 **Milthm** **没有任何关联、合作、授权或官方认可关系**。
 
-Milthm 及其相关名称、商标、资源和版权均归其各自权利人所有。
-
-本项目按「现状」提供，不提供任何形式的保证。
+Milthm 及其相关名称、商标、资源及版权均归其各自权利人所有。
 
 ---
 
