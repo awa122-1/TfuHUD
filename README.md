@@ -10,7 +10,7 @@ An unofficial fan-made mod for **Milthm**.
 
 **English**
 
-This mod **requires the modified `BepInEx.zip` provided in this repository or Release**.
+This mod **requires the modified `HUD.zip` provided in this repository or Release**.
 
 The Interop files have been modified specifically for this project and are **not compatible** with the official BepInEx package or other third-party builds.
 
@@ -18,7 +18,7 @@ The Interop files have been modified specifically for this project and are **not
 
 **中文**
 
-**本模组必须使用本仓库或 Release 提供的 `BepInEx.zip`。**
+**本模组必须使用本仓库或 Release 提供的 `HUD.zip`。**
 
 由于本项目修改了 **Interop** 文件，因此**与官方版或其他来源的 BepInEx 不兼容**。
 
@@ -40,21 +40,19 @@ The Interop files have been modified specifically for this project and are **not
 
 Download the following files from the latest Release:
 
-* `BepInEx.zip`
-* `MilthmMod.dll`
+* `HUD.zip`
 
 请从最新 Release 下载：
 
-* `BepInEx.zip`
-* `MilthmMod.dll`
+* `HUD.zip`
 
 ---
 
 ## 2. Install BepInEx / 安装 BepInEx
 
-Extract **BepInEx.zip** into your Milthm installation folder.
+Extract **HUD.zip** into your Milthm installation folder.
 
-将 **BepInEx.zip** 解压到 Milthm 游戏目录。
+将 **HUD.zip** 解压到 Milthm 游戏目录。
 
 Example / 示例：
 
@@ -83,7 +81,7 @@ Example / 示例：
 ```
 BepInEx/
 └── plugins/
-    └── MilthmMod.dll
+    └── 芙氏HUD.dll
 ```
 
 Launch Milthm.
